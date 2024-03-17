@@ -108,9 +108,9 @@ ul:not(.asside-list){
     font-size: 1.4em;
 }
 
-.main-home p{
+.main-wrap p{
     margin-top:18px;
-    max-width: 670px;
+    max-width: 660px;
     font-size: 18px;
 }
 
@@ -125,7 +125,11 @@ ul:not(.asside-list){
     margin-right: 10px;
     background-color: var(--cor-05);
     margin-bottom: 10px;
-;
+
+}
+
+.social-links li:hover{
+    background-image: linear-gradient(to right , var(--cor-04) , var(--cor-05));
 }
 
 .social-links li a{
@@ -139,6 +143,67 @@ ul:not(.asside-list){
 }
 
 /*HABI*/
+
+.main-wrap h2{
+    font-size: 50px;
+}
+
+.main-habi h3{
+    margin: 10px 0;
+}
+
+.main-habi ul{
+    list-style: none;
+
+}
+
+.main-habi li{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 40px;
+}
+
+/* PROJ */
+
+.div-proj{
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.main-projetos{
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.181);
+    background-color: #fff;
+    max-width: 350px;
+    transition: all .5s;
+}
+
+
+.main-projetos:hover{
+    transform:scale(1.03);
+    
+}
+
+.main-projetos img{
+    width: 100%;
+}
+
+.main-projetos a{
+    color: var(--cor-03);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.main-projetos h3{
+    font-weight: 500;
+}
+.main-projetos p{
+    margin: 0;
+    font-weight: 400;
+}
+
+
+
 @media(max-width:800px){
     .asside-menu{
         width: 100%;
