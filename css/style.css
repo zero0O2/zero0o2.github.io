@@ -32,6 +32,10 @@ body{
     position: relative;
 }
 
+::selection {
+  background-color: none;
+}
+
 /* ===== ASIDE BAR ===== */
 
 
