@@ -33,7 +33,7 @@ body{
 }
 
 ::selection {
-  background-color: none;
+  background-color: transparent;
 }
 
 /* ===== ASIDE BAR ===== */
