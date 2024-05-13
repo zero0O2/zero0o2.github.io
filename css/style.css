@@ -32,10 +32,6 @@ body{
     position: relative;
 }
 
-::selection {
-  background-color: transparent;
-}
-
 /* ===== ASIDE BAR ===== */
 
 
