@@ -144,6 +144,7 @@ body{
 .header a:hover,.header a#Achievement:hover{
     color: var(--cor06);
     transform: scale(1.1);
+    background-color: transparent ;
 }
 
 /* ===== CONTEUDO ===== */
