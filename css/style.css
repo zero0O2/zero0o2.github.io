@@ -36,7 +36,6 @@ body{
 
 
 .asideBar{
-    z-index: 1;
     background-color: var(--cor01);
     width: 110px;
     height: 100%;
@@ -45,6 +44,7 @@ body{
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index: 1;
 }
 
 .aside-itens{
