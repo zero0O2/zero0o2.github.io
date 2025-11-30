@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@font-face {font-family: Adam;src: url(../public/fonts/ADAM.CG\ PRO.otf);}
+
+:root{
+    /* ===== Cores ===== */
+    
+    --cor01:#141414 ;
+    --cor02:#3E3E40 ;
+    --cor03:#8697A6 ;
+    --cor04:#8C8C8C ;
+    --cor05:#080806 ;
+    --cor06:#9D8664 ;
+    --cor07:#DDD1BF ;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../public/imagens/areaInicialIndex.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(28, 28, 28);
+    color: #8C8C8C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#root{
+    height: 100%;
+    width: 100%;
+
+}
