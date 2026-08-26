@@ -1,0 +1,17 @@
+[
+    {
+        "nome":"Simulix",
+        "titulo":"Site de gerenciamento de tarefas e simulados.",
+        "explicacao":"O simulix é um site criado em React no front end e Node.js no back end utilizando mongoDB como banco de dados, o site e feito utilizando tecnologias como javascript, criptografia de senha e autenticação de usuario por meio de token jwt. Feito para criação de perguntas e repostas podendo usalas para revisões e testar seu conhecimento por meio de simulados, aonde o usuario pode filtrar por tipo, materia e de onde a questao é.",
+        "link":"https://simulix-ghib.vercel.app",
+        "image":"/imagens/projetos/simulix.png"
+    },
+    {
+        "nome":"Prototipo Spotify",
+        "titulo":"Site feito para escultar musicas",
+        "explicacao":"O prototipo spotify como o nome ja diz foi desenvolvido como uma replica do layout do spotify com React e dados vindo de um proprio json, foi feito para ser responsivo indenpendente de qualquer dispositivo para que pudesse ser usado sem dor de cabeça, com pesquisa de musicas e artistas com uma área para cada um.",
+        "link":"https://zero0o2.github.io/prototipo-spotify/",
+        "image":"/imagens/projetos/spotify.png"
+    }
+
+]
