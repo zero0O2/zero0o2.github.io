@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @font-face {font-family: Adam;src: url(../public/fonts/ADAM.CG\ PRO.otf);}
+@font-face {font-family:Antone ;src: url(../public/fonts/Antone\ DEMO.ttf);}
 
 :root{
     /* ===== Cores ===== */
