@@ -2,6 +2,18 @@
 @font-face {font-family: Adam;src: url(../public/fonts/ADAM.CG\ PRO.otf);}
 @font-face {font-family:Antone ;src: url(../public/fonts/Antone\ DEMO.ttf);}
 
+::-webkit-scrollbar{
+    background-color: var(--cor05);
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-button{
+    width: 0;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--cor06);
+}
+
 :root{
     /* ===== Cores ===== */
     
