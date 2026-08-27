@@ -5,7 +5,10 @@ const AreaProjetos = () => {
 
     return(
         <>
-            <div className="bg-[var(--cor05)]">
+            <div className="bg-[var(--cor05)] relative">
+
+                <p className="absolute right-[30px] top-[10px] text-[var(--cor04)] text-[13px]">Em desenvolvimento 27/08/2026</p>
+
                 <header className="w-full p-[30px] ">
                     <h1 className="font-[Adam] text-[30px]">Projetos</h1>
                 </header>

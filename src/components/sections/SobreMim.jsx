@@ -10,7 +10,10 @@ const SobreMim = () => {
 
     return(
         <>
-            <div className="flex w-[100%] h-[90dvh]">
+            <div className="flex relative w-[100%] h-[90dvh]">
+
+                <p className="absolute right-[30px] top-[10px] text-[var(--cor04)] text-[13px]">Em desenvolvimento 27/08/2026</p>
+
                 <div className=" flex justify-center w-[50%]">
                     <div className="max-w-[500px] py-[60px] w-full flex flex-col justify-between">
                         <header className="flex flex-col gap-[10px]">
@@ -22,7 +25,7 @@ const SobreMim = () => {
                         </header>
                         <span className="text-[15px] flex flex-col gap-[10px]">
                             <p>Sou um jovem de 18 anos buscando ingressar no mercado de trabalho de desenvolvimento de softwares, estudo tecnologia desde 2022 que foi quando começei a ter gosto pela area.</p>
-                            <p>Em 2023 ingressei em uma formaçao da escola de tecnologia <strong>Digital College</strong>, aonde cursei e completei em um ano e meio desenvolvimento FullStak com javascript, aonde tive conteudos como javascript, Node.js, MySQL, Mongodb, React, trabalho em equipe e vercionamento git.</p>
+                            <p>Em 2023 ingressei em uma formaçao da escola de tecnologia <strong>Digital College</strong>, aonde cursei e completei em um ano e meio desenvolvimento FullStak com javascript, aonde tive conteudos como javascript, Node.js, Express, MySQL, Mongodb, React, trabalho em equipe e vercionamento com git.</p>
                             <p>Atualmente em 2026 estou cursando a faculdade de Analise e Desenvolvimento de Sistemas(ADS) pela Estacio 1° periodo</p>
                         </span>
                         <nav className="flex flex-col gap-[20px]">
@@ -35,7 +38,22 @@ const SobreMim = () => {
                     </div>
                 </div>
                 <div className="w-[50%]">
-                    
+                    <div className="h-full py-[60px] w-full flex flex-col justify-between">
+                        <div className=" flex flex-col gap-[20px]">
+                            <header className="flex flex-col gap-[10px]">
+                                <h1 className="text-[20px] ">Certificações e competências</h1>
+                            </header>
+                            <section className="w-full flex justify-center p-[20px] gap-[14px]">
+                                <span className="h-full flex-1 max-w-[450px] hover:bg-[var(--cor02)] cursor-pointer flex flex-col">
+                                    <img className="object-cover h-[200px] duration-200" src="/imagens/certificacoes/digitalCollege.png" alt="" />
+                                    <div className="p-[20px] text-[15px] flex flex-col gap-[10px]">
+                                        <h1 className="text-[17px] font-bold" >Certificado de conclusao - Digital College</h1>
+                                        <p>O curso de Formação Full-Stack (com foco em JavaScript e tecnologias modernas) da Digital College prepara você para atuar no desenvolvimento completo de sites e aplicativos, desde a interface visual até os servidores e bancos de dados.</p>
+                                    </div>
+                                </span>
+                            </section>
+                        </div>
+                    </div>
                 </div> 
             </div>
         </>
