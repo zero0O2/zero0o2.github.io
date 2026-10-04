@@ -1,4 +1,4 @@
-import { useLayoutEffect, useState } from "react"
+import { useState } from "react"
 
 const SobreMim = () => {
     const [layoutCarregou,setLayoutCarregou] = useState(false)
@@ -12,7 +12,7 @@ const SobreMim = () => {
         <>
             <div className="flex relative w-[100%] h-[90dvh]">
 
-                <p className="absolute right-[30px] top-[10px] text-[var(--cor04)] text-[13px]">Em desenvolvimento 27/08/2026</p>
+                <p className="absolute right-[30px] top-[10px] text-[var(--cor04)] text-[13px] hidden">Em desenvolvimento 27/08/2026</p>
 
                 <div className=" flex justify-center w-[50%]">
                     <div className="max-w-[500px] py-[60px] w-full flex flex-col justify-between">
@@ -45,13 +45,37 @@ const SobreMim = () => {
                             </header>
                             <section className="w-full flex overflow-x-auto p-[20px] gap-[20px]">
 
-                                <span className="flex-1 min-w-[350px] max-w-[450px] shadow-[0_0_20px_var(--cor01)] hover:bg-[var(--cor02)] cursor-pointer flex flex-col">
+                                <div className="flex-1 min-w-[350px] max-w-[450px] shadow-[0_0_20px_var(--cor01)] hover:bg-[var(--cor02)] cursor-pointer flex flex-col">
                                     <img className="object-cover object-center h-[200px] duration-200" src="/imagens/certificacoes/digitalCollege.png" alt="" />
                                     <div className="p-[20px] text-[15px] flex flex-col gap-[10px]">
                                         <h1 className="text-[17px] font-bold" >Certificado de conclusao - Digital College</h1>
                                         <p>O curso de Formação Full-Stack (com foco em JavaScript e tecnologias modernas) da Digital College prepara você para atuar no desenvolvimento completo de sites e aplicativos, desde a interface visual até os servidores e bancos de dados.</p>
                                     </div>
-                                </span>
+                                </div>
+
+                            </section>
+                            <section className="flex gap-[10px] flex-wrap">
+                                <div className="aspect-square w-[45px] overflow-hidden flex rounded-[5px] justify-center items-center bg-[var(--cor01)]">
+                                    <img className="w-[45px] object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/debian/debian-original.svg" />
+                                </div>
+                                <div className="aspect-square w-[45px] overflow-hidden flex rounded-[5px] justify-center items-center bg-[var(--cor01)]">
+                                    <img className="w-[45px] object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
+                                </div>
+                                <div className="aspect-square w-[45px] flex overflow-hidden rounded-[5px] justify-center items-center bg-[var(--cor01)]">
+                                    <img className="w-[45px] object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                                </div>
+                                <div className="aspect-square w-[45px] flex overflow-hidden rounded-[5px] justify-center items-center bg-[var(--cor01)]">
+                                    <img className="w-[45px] object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                                </div>
+                                <div className="aspect-square w-[45px] flex overflow-hidden rounded-[5px] justify-center items-center bg-[var(--cor01)]">
+                                    <img className="w-[45px] object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
+                                </div>
+                                <div className="aspect-square w-[45px] flex overflow-hidden rounded-[5px] justify-center items-center bg-[var(--cor01)]">
+                                    <img className="w-[45px] object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+                                </div>
+                                <div className="aspect-square w-[45px] flex overflow-hidden rounded-[5px] justify-center items-center bg-[var(--cor01)]">
+                                    <img className="w-[45px] object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                                </div>
                                 
                             </section>
                         </div>
