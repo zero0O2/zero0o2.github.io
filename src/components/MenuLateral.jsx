@@ -8,7 +8,7 @@ const MenuLateral = () => {
         <div className="fixed top-0 left-0 flex justify-center items-center bg-[var(--cor01)] p-[10px] w-[120px] h-[100%]">
             <div className="flex flex-col py-[20px] justify-between items-center bg-[var(--cor01)] w-[100%] h-[100%] shadow-[0px_0px_10px_black]">
                 <div>
-                    <img className="w-[80px] rounded-full" src="/imagens/profile.png" alt="logo Z" />
+                    <img className="w-[80px] object-cover aspect-square rounded-full" src="https://avatars.githubusercontent.com/u/148266981?v=4" alt="logo Z" />
                 </div>
 
                 <div className="flex text-[30px] font-semibold text-[var(--cor07)] items-center justify-between w-[450px] rotate-[90deg]">
