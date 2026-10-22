@@ -7,7 +7,7 @@ const CardeProjetos = ({nomeProjeto,tituloProjeto,explicacaoProjeto,linkProjeto,
 
     return(
         <>
-            <div className={`hover:scale-[1.008] duration-200 flex w-[97%] ${separadorDeLados ? "self-start" : "self-end"} h-[350px] bg-[var(--cor01)] hover:bg-[#212121]`}>
+            <div className={`hover:scale-[1.008] duration-200 flex w-[97%] ${separadorDeLados ? "self-start" : "self-end"} h-[350px] bg-[var(--cor01)] hover:bg-[#212121] max-[1000px]:w-[100%] max-[1000px]:h-[auto]`}>
                 <main className="w-full h-full p-[20px] gap-[20px] flex flex-col">
                     <aside>
                         <h1 className="font-[Adam] text-[20px]">{nomeProjeto}</h1>

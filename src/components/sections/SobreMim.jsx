@@ -10,12 +10,12 @@ const SobreMim = () => {
 
     return(
         <>
-            <div className="flex relative w-[100%] h-[90dvh]">
+            <div className="flex relative w-[100%] h-[90dvh] max-[1000px]:flex-col max-[1000px]:h-full">
 
                 <p className="absolute right-[30px] top-[10px] text-[var(--cor04)] text-[13px] hidden">Em desenvolvimento 27/08/2026</p>
 
-                <div className=" flex justify-center w-[50%]">
-                    <div className="max-w-[500px] py-[60px] w-full flex flex-col justify-between">
+                <div className=" flex justify-center w-[50%] max-[1000px]:w-full">
+                    <div className="max-w-[500px] p-[60px_10px] w-full flex flex-col justify-between gap-[20px] max-[1000px]:p-[40px_30px] max-[1000px]:max-w-full">
                         <header className="flex flex-col gap-[10px]">
                             <span>
                                 <h1 className="font-[Antone] text-[40px]">ABOUT me</h1>
@@ -37,9 +37,9 @@ const SobreMim = () => {
                         </nav>
                     </div>
                 </div>
-                <div className="w-[50%]">
+                <div className="w-[50%] max-[1000px]:w-full">
                     <div className="h-full py-[60px] w-full flex flex-col justify-between">
-                        <div className=" flex flex-col pr-[20px] gap-[20px]">
+                        <div className=" flex flex-col pr-[20px] gap-[20px] max-[1000px]:px-[20px]">
                             <header className="flex flex-col gap-[10px]">
                                 <h1 className="text-[20px] ">Certificações e competências</h1>
                             </header>
@@ -68,7 +68,7 @@ const SobreMim = () => {
                                 </a>
 
                             </section>
-                            <section className="flex gap-[10px] flex-wrap">
+                            <section className="flex gap-[10px] flex-wrap max-[1000px]:justify-center">
                                 <div className="aspect-square w-[45px] overflow-hidden flex rounded-[5px] justify-center items-center bg-[var(--cor01)]">
                                     <img className="w-[45px] object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/debian/debian-original.svg" />
                                 </div>
