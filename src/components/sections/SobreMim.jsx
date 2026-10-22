@@ -45,21 +45,21 @@ const SobreMim = () => {
                             </header>
                             <section className="w-full flex overflow-x-auto p-[20px] gap-[20px]">
 
-                                <a target="_blank" className="flex-1 min-w-[350px] max-w-[450px] shadow-[0_0_20px_var(--cor01)] hover:bg-[var(--cor02)] cursor-pointer flex flex-col">
+                                <a target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:7303343888990113793/" className="flex-1 min-w-[350px] max-w-[450px] shadow-[0_0_20px_var(--cor01)] hover:bg-[var(--cor02)] cursor-pointer flex flex-col">
                                     <img className="object-cover object-center h-[200px] duration-200" src="/imagens/certificacoes/digitalCollege.png" alt="" />
                                     <div className="p-[20px] text-[15px] flex flex-col gap-[10px]">
                                         <h1 className="text-[17px] font-bold" >Digital College - Full Stack javascript</h1>
                                         <p>O curso de Formação Full-Stack (com foco em JavaScript e tecnologias modernas) da Digital College prepara você para atuar no desenvolvimento completo de sites e aplicativos, desde a interface visual até os servidores e bancos de dados.</p>
                                     </div>
                                 </a>
-                                <a target="_blank" className="flex-1 min-w-[350px] max-w-[450px] shadow-[0_0_20px_var(--cor01)] hover:bg-[var(--cor02)] cursor-pointer flex flex-col">
+                                <a target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:7298087258404929536/" className="flex-1 min-w-[350px] max-w-[450px] shadow-[0_0_20px_var(--cor01)] hover:bg-[var(--cor02)] cursor-pointer flex flex-col">
                                     <img className="object-cover object-center h-[200px] duration-200" src="/imagens/certificacoes/aluraFront2.png" alt="" />
                                     <div className="p-[20px] text-[15px] flex flex-col gap-[10px]">
                                         <h1 className="text-[17px] font-bold" >Alura - Imersão Front-end 2 edição</h1>
                                         <p>Desenvolvimento de interfaces web modernas do absoluto zero, integrando design e funcionalidade. A formação foca na aplicação real das tecnologias fundamentais do ecossistema web para criar projetos dinâmicos e responsivos.</p>
                                     </div>
                                 </a>
-                                <a target="_blank" className="flex-1 min-w-[350px] max-w-[450px] shadow-[0_0_20px_var(--cor01)] hover:bg-[var(--cor02)] cursor-pointer flex flex-col">
+                                <a target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:7298086966837829634/" className="flex-1 min-w-[350px] max-w-[450px] shadow-[0_0_20px_var(--cor01)] hover:bg-[var(--cor02)] cursor-pointer flex flex-col">
                                     <img className="object-cover object-center h-[200px] duration-200" src="/imagens/certificacoes/hashtagfullstack.png" alt="" />
                                     <div className="p-[20px] text-[15px] flex flex-col gap-[10px]">
                                         <h1 className="text-[17px] font-bold" >Hashtag - Jornada Full Stack</h1>
