@@ -67,7 +67,6 @@ const SobreMim = () => {
                                     </div>
                                 </a>
 
-
                             </section>
                             <section className="flex gap-[10px] flex-wrap">
                                 <div className="aspect-square w-[45px] overflow-hidden flex rounded-[5px] justify-center items-center bg-[var(--cor01)]">
